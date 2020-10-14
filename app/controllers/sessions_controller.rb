@@ -9,6 +9,7 @@ class SessionsController < ApplicationController
       redirect "/"
     else 
       redirect "/login"
+    end
     
   end
   
